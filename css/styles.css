@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --bs-green: #4CAF60;
+    --bs-brown: #795548;
+    --bs-orange: #FF9800;
+    --bs-gray: #212121;
+}
+
+html {
+    /*1rem = 10px*/
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* navabar */
+.text-brown {
+    color: var(--bs-brown);
+}
+
+.text-green {
+    color: var(--bs-green);
+}
+
+nav a:hover {
+    color: var(--bs-green);
+    border-bottom: 1px solid var(--bs-green);
+}
+
+nav span:hover {
+    cursor: pointer;
+    color: var(--bs-brown);
+}
